@@ -1,3 +1,11 @@
+/**
+ * Repository that stores customer information
+ *
+ * @author Renato Ponce
+ * @version 1.0
+ * @since 2022-06-24
+ */
+
 package com.nttdata.apirestcustomers.repository;
 
 import com.nttdata.apirestcustomers.model.Customer;

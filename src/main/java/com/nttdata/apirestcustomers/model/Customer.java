@@ -1,5 +1,14 @@
+/**
+ * Bean Stores Customer Information
+ *
+ * @author Renato Ponce
+ * @version 1.0
+ * @since 2022-06-24
+ */
+
 package com.nttdata.apirestcustomers.model;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -23,4 +32,7 @@ public class Customer {
     private String numberDocument;
     @Field(name = "customerType")
     private String customerType;
+    @Field(name = "dateBirthDay")
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
+    private String dateBirthDay;
 }

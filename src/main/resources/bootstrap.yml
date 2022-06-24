@@ -1,6 +1,3 @@
-#server:
-#  port: 8070
-
 spring:
   application:
     name: api-rest-customers
@@ -10,48 +7,3 @@ spring:
       uri: http://localhost:8888
       username: prueba
       password: 123456
-
-#Application Configuration
-#server:
-#  port: 8081
-#spring:
-#  data:
-#    mongodb:
-#      uri: mongodb://localhost:27017/customers-db
-
-#Application Configuration
-#server:
-# port: 8081
-#spring:
-#  application:
-#    name: api-rest-customers
-#  config:
-#    enabled: true
-#    import: optional:configserver:http://localhost:8888
-#management:
-#  security:
-#    enabled: false
-#    label: "main"
-#  data:
-      #    mongodb:
-    #uri: mongodb://localhost:27017/customers-db
-
-#Application Configuration
-#server:
-#  port: 8081
-#spring:
-#  application:
-#    name: api-rest-customers
-#  data:
-#    mongodb:
-#      uri: mongodb://localhost:27017/customers-db
-#  cloud:
-#    config:
-#      enabled: false
-
-#spring:
-#  application:
-#    name: api-rest-customers
-#  config:
-#    enabled: true
-#    uri: http://localhost:8088
